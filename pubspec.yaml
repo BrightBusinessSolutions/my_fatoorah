@@ -10,7 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   http: ^1.0.0
-  flutter_inappwebview: ^5.7.2+3
+  flutter_inappwebview: 5.7.2+3
 
 dev_dependencies:
   lints: ^2.1.0
