@@ -57,13 +57,72 @@ packages:
   flutter_inappwebview:
     dependency: "direct main"
     description:
-      name: flutter_inappwebview
-      sha256: f73505c792cf083d5566e1a94002311be497d984b5607f25be36d685cf6361cf
+      path: flutter_inappwebview
+      ref: HEAD
+      resolved-ref: cb2620496d5a81d0b547b1b90ab5da1fbf8b440c
+      url: "https://github.com/MobileEasternts/flutter_inappwebview.git"
+    source: git
+    version: "6.0.0"
+  flutter_inappwebview_android:
+    dependency: transitive
+    description:
+      path: flutter_inappwebview_android
+      ref: HEAD
+      resolved-ref: cb2620496d5a81d0b547b1b90ab5da1fbf8b440c
+      url: "https://github.com/MobileEasternts/flutter_inappwebview.git"
+    source: git
+    version: "1.0.13"
+  flutter_inappwebview_internal_annotations:
+    dependency: transitive
+    description:
+      name: flutter_inappwebview_internal_annotations
+      sha256: "5f80fd30e208ddded7dbbcd0d569e7995f9f63d45ea3f548d8dd4c0b473fb4c8"
       url: "https://pub.dev"
     source: hosted
-    version: "5.7.2+3"
+    version: "1.1.1"
+  flutter_inappwebview_ios:
+    dependency: transitive
+    description:
+      path: flutter_inappwebview_ios
+      ref: HEAD
+      resolved-ref: cb2620496d5a81d0b547b1b90ab5da1fbf8b440c
+      url: "https://github.com/MobileEasternts/flutter_inappwebview.git"
+    source: git
+    version: "1.0.13"
+  flutter_inappwebview_macos:
+    dependency: transitive
+    description:
+      path: flutter_inappwebview_macos
+      ref: HEAD
+      resolved-ref: cb2620496d5a81d0b547b1b90ab5da1fbf8b440c
+      url: "https://github.com/MobileEasternts/flutter_inappwebview.git"
+    source: git
+    version: "1.0.11"
+  flutter_inappwebview_platform_interface:
+    dependency: transitive
+    description:
+      path: flutter_inappwebview_platform_interface
+      ref: HEAD
+      resolved-ref: cb2620496d5a81d0b547b1b90ab5da1fbf8b440c
+      url: "https://github.com/MobileEasternts/flutter_inappwebview.git"
+    source: git
+    version: "1.0.11"
+  flutter_inappwebview_web:
+    dependency: transitive
+    description:
+      path: flutter_inappwebview_web
+      ref: HEAD
+      resolved-ref: cb2620496d5a81d0b547b1b90ab5da1fbf8b440c
+      url: "https://github.com/MobileEasternts/flutter_inappwebview.git"
+    source: git
+    version: "1.0.8"
   flutter_test:
     dependency: "direct dev"
+    description: flutter
+    source: sdk
+    version: "0.0.0"
+  flutter_web_plugins:
+    dependency: transitive
     description: flutter
     source: sdk
     version: "0.0.0"
@@ -83,6 +142,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.0.2"
+  js:
+    dependency: transitive
+    description:
+      name: js
+      sha256: f2c445dce49627136094980615a031419f7f3eb393237e4ecd97ac15dea343f3
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.6.7"
   leak_tracker:
     dependency: transitive
     description:
@@ -147,6 +214,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.9.0"
+  plugin_platform_interface:
+    dependency: transitive
+    description:
+      name: plugin_platform_interface
+      sha256: "4820fbfdb9478b1ebae27888254d445073732dae3d6ea81f0b7e06d5dedc3f02"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.1.8"
   sky_engine:
     dependency: transitive
     description: flutter
